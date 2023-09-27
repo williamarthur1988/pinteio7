@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    
+}
+/* Cabeçalho */
+header {
+    background-color: #3db36b;
+    color: #fff;
+    text-shadow: black 3px 1px;
+    padding-top: 150px;
+    text-align: center;
+    border-bottom: 3px solid #39a2df;
+    font-size: 50px;
+    background-image: url(../imagens/simb1.jpg);
+    background-position: -33%, 20%;
+}
+
+/* Grid de Produtos */
+.conteiner {
+     background-color: #eee;
+     min-height: 60vh;
+     padding: 50px;
+}
+
+.products-conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card {
+width: 31%;
+display: inline-block;
+margin: 1% 1%;
+padding: 15px;
+
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+#img-1 {
+    background-image: url('../imagens/img1.jpg');
+}
+
+#img-2 {
+    background-image: url('../imagens/img2.jpg');
+}
+
+#img-3 {
+    background-image: url('../imagens/img3.jpg');
+}
+
+#img-4 {
+    background-image: url('../imagens/img4.jpg');
+}
+
+#img-5 {
+    background-image: url('../imagens/img5.jpg');
+}
+
+#img-6 {
+    background-image: url('../imagens/img6.jpg');
+}
+
+#img-7 {
+    background-image: url('../imagens/img7.jpg');
+}
+
+#img-8 {
+    background-image: url('../imagens/img8.jpg');
+}
+
+#img-9 {
+    background-image: url('../imagens/img9.jpg');
+}
+
+#img-10 {
+    background-image: url('../imagens/img10.jpg');
+}
+
+#img-11 {
+    background-image: url('../imagens/img11.jpg');
+}
+
+#img-12 {
+    background-image: url('../imagens/img12.jpg');
+}
+
+#img-13 {
+    background-image: url('../imagens/img13.jpg');
+}
+
+#img-14 {
+    background-image: url('../imagens/img14.jpg');
+}
+
+#img-15 {
+    background-image: url('../imagens/img15.jpg');
+}
+
+#img-16 {
+    background-image: url('../imagens/img16.jpg');
+}
+
+#img-17 {
+    background-image: url('../imagens/img17.jpg');
+}
+
+#img-18 {
+    background-image: url('../imagens/img10.jpg');
+}
+
+#img-19 {
+    background-image: url('../imagens/img19.jpg');
+}
+
+#img-20 {
+    background-image: url('../imagens/img20.jpg');
+}
+
+#img-21 {
+    background-image: url('../imagens/img21.jpg');
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #3db36b;
+    border-left: 5px solid  #0f642f;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+ font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .5s;
+    
+}
+
+.btn:hover {
+    background-color: #0f642f;
+} 
+
+
+
+
+/* footer */
+footer{
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    background-image: url(../imagens/simb.jpg);
+    font-size: 20px;
+    text-shadow:black 1px 1px;
+    background-position: 5px;
+    border-top: 3px solid #080074;
+}
+a {
+    color: white;
+}
